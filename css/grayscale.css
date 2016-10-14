@@ -52,6 +52,10 @@ a:focus {
 .light {
   font-weight: 400;
 }
+.navbar-header img {
+	border-radius: 10px;
+	overflow:hidden;
+}
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -288,6 +292,9 @@ ul.banner-social-buttons {
   }
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
+  }
+  .navbar-header {
+    text-align: center;
   }
 }
 footer {
