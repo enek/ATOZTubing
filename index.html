@@ -20,7 +20,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
     <!-- Theme CSS -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,7 +51,7 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Services</a>
+                        <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -92,31 +92,87 @@
         </div>
     </section>-->
 
-    <!-- Services Section 
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
+    <!-- Services Section -->
+    <section id="services" class="content-section text-center">
+        <div class="services-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                    <h2>Services</h2>
+                    <p>Servicing the oil industry in western Canada.</p>
                 </div>
             </div>
         </div>
-    </section>-->
+    </section>	
+	
+    <!-- Map Section -->
+    <div id="map"></div>
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact ATOZ Tubing Services</h2>
+                <h2>Contact ATOZ</h2>
                 <p>Feel free to email us to inquire about services or just to say hello!</p>
             </div>
         </div>
-    </section>
+					<!-- Jotform: http://www.jotform.com/?formID= -->
+	  
+	  		<form class="form-horizontal" role="form" action="" method="post" name="" id="" accept-charset="utf-8">
+				  <input type="hidden" name="formID" value="" />
+				  
+				  <div class="form-group">
+					<label for="q15_yourName" class="col-sm-2 control-label">Your Name</label>
+					<div class="col-sm-4">
+					  <input class="form-control" type="text" size="10" name="q15_yourName[first]" id="first_15" placeholder="First Name" required />
+					</div>
+					<div class="col-sm-6">
+					  <input class="form-control" type="text" size="15" name="q15_yourName[last]" id="last_15" placeholder="Last Name"/>
+					</div>
+				  </div>
+				  <div class="form-group">
+					<label for="q16_yourEmail16" class="col-sm-2 control-label">Your Email Address</label>
+					<div class="col-sm-10">
+					  <input type="email" class="form-control" id="input_16" name="q16_yourEmail16" size="32" placeholder="name@domain.com">
+					</div>
+				  </div>
+				  <div class="form-group">
+					<label for="q22_phoneNumber22" class="col-sm-2 control-label">Phone Number</label>
+					<div class="col-sm-2">
+					  <input type="tel" class="form-control" name="q22_phoneNumber22[area]" id="input_22_area" size="3" placeholder="780">
+					</div>
+					<div class="col-sm-8">
+					  <input type="tel" class="form-control" name="q22_phoneNumber22[phone]" id="input_22_phone" size="8" placeholder="444-4444">
+					</div>
+				  </div>
+				  
+				  <div class="form-group">
+					<label for="q17_yourMessage" class="col-sm-2 control-label">Message</label>
+					<div class="col-sm-10">
+					  <textarea class="form-control" id="input_17" name="q17_yourMessage" rows="3" placeholder="Your Message" required ></textarea>
+					</div>
+				  </div>	
+				  
+				  <div class="form-group">
+				    <label for="input_23" class="col-sm-2 control-label">Prefered Contact?</label>
+					<div class="col-sm-10" style="text-align:left;">
+					  <div class="radio"><label><input type="radio" id="input_23_0" name="q23_preferedContact23" value="E-mail" /> E-mail</label></div>
+					  <div class="radio"><label><input type="radio" id="input_23_1" name="q23_preferedContact23" value="Phone" checked /> Phone</label></div>
+					</div>
+				  </div>
+						
+				  <input type="hidden" name="website" value="" />
+				  <input type="hidden" id="simple_spc" name="simple_spc" value="" />
+				  <script type="text/javascript">
+				  document.getElementById("si" + "mple" + "_spc").value = "";
+				  </script>
+				
+				<div class="form-group" align="center">
+				  <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+				  <button id="input_14" type="submit" class="btn btn-primary">Send Message</button>	  
+				</div>
 
-    <!-- Map Section -->
-    <div id="map"></div>
+			</form>
+    </section>
 
     <!-- Footer -->
     <footer>

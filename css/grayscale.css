@@ -101,6 +101,9 @@ a:focus {
 .navbar-custom .nav li.active a:hover {
   color: white;
 }
+.navbar-custom.top-nav-collapse img {
+	height: 50px;
+}
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
@@ -234,7 +237,7 @@ a:focus {
 #map {
   width: 100%;
   height: 200px;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 @media (min-width: 767px) {
   .content-section {
@@ -245,7 +248,7 @@ a:focus {
   }
   #map {
     height: 400px;
-    margin-top: 250px;
+    margin-top: 0px;
   }
 }
 .btn {

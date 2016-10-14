@@ -38,7 +38,10 @@ var map = null;
 google.maps.event.addDomListener(window, 'load', init);
 google.maps.event.addDomListener(window, 'resize', function() {
     map.setCenter(new google.maps.LatLng(55.387971,-114.9313597));
-	map.setZoom(7);
+	if ($(window).width() < 769)
+		map.setZoom(5);
+	else
+		map.setZoom(6);
 });
 
 function init() {
