@@ -53,6 +53,9 @@
                     <li>
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
+					<li>
+                        <a class="page-scroll" href="#safety">Safety</a>
+                    </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
@@ -80,39 +83,79 @@
         </div>
     </header>
 	
-    <!-- About Section 
+    <!-- About Section -->
+
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Grayscale</h2>
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+					<h2>About</h2>
+					<p>ATOZ Tubing Services Ltd is 100% Canadian owned and operated serving the Canadian Oilfield since 2013 operating out of Edmonton, Grande Prairie.</p>
+					<p>The primary role of Atoz Tubing Services  is to ensure the invested Tubular interests of Oil Companies are independently represented. Our field representatives are trained in acceptance of product, transportation, field assembly and storage. ATOZ will ensure all quality control facets from the mill to assembly of your product at the well site are accomplished safely and cost effectively. Enhanced quality control procedures and global networking enables us to provide our customers with superior products, superior services, and measurable cost savings.</p>
             </div>
         </div>
-    </section>-->
-
+    </section>
     <!-- Services Section -->
     <section id="services" class="content-section text-center">
         <div class="services-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Services</h2>
-                    <p>Servicing the oil industry in western Canada.</p>
-                </div>
-            </div>
-        </div>
-    </section>	
-	
+					<div class="col-md-6">
+						<p><a href="files/brochure1.pdf">Connection Supervision</a><p>
+						<p>Casing Cleaning crew</p>
+						<p>Electronic Dump Valves</p>
+						<p>CRT TOOL</p>
+					</div>
+					<div class="col-md-6">
+						<p><a href="files/brochure2.pdf">Computer Torque Monitoring</a></p>
+						<p>Power Thread Washer</p>
+						<p>Power Tong</p>
+						<p>&nbsp;</p>
+					</div>
+					<p>&nbsp;</p>
+					<p>Servicing Western Canada</p>
+				</div>
+			</div>
+		</div>
+	</section>
     <!-- Map Section -->
     <div id="map"></div>
+	
+	<section id="safety" class="content-section text-center">
+        <div class="safety-section">
+            <div class="container">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h2>Safety</h2>
+					<p>ATOZ Tubing Services  is committed to providing a safe work environment for its employees, clients and other work personnel present at the work site. As a SECOR regulated and approved company, ATOZ tubing Services is compliant with all safety programs, including ComplyWorks, and ISNetworld in addition to our custom in-house programs and in field.
+					<p>We take our commitment to safety very seriously. We honour and respect the need for laws and regulations in the workplace and have worked hard to develop a comprehensive safety program.<p>
+					<p>We maintain adequate standards of maintenance on our handling equipment and trucks ensuring all hazards are guarded or eliminated.</p>
+					<h3>Our Safety Commitment</h3>
+					<p>Our goal is to have an injury and accident-free workplace. We strive to maintain a safe and healthy workplace and provide safety equipment, training and the time to make this possible.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="logos" class="content-section text-center">
+        <div class="logos-section">
+            <div class="container">
+				<div class="col-lg-8 col-lg-offset-2">
+					<img class="col-sm-3" src="img/pic1.png">
+					<img class="col-sm-3" src="img/pic2.png">
+					<img class="col-sm-3" src="img/pic3.png">
+					<img class="col-sm-3" src="img/pic4.png">					
+				</div>
+			</div>
+		</div>
+	</section>
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact ATOZ</h2>
-                <p>Feel free to email us to inquire about services or just to say hello!</p>
+				<p>We are always looking to hire experienced, talented people.<br/>
+                Feel free to email us to inquire about services or just to say hello!</p>			
             </div>
         </div>
 					<!-- Jotform: http://www.jotform.com/?formID= -->
@@ -122,10 +165,10 @@
 				  
 				  <div class="form-group">
 					<label for="q15_yourName" class="col-sm-2 control-label">Your Name</label>
-					<div class="col-sm-4">
-					  <input class="form-control" type="text" size="10" name="q15_yourName[first]" id="first_15" placeholder="First Name" required />
+					<div class="col-sm-10">
+					  <input class="form-control" type="text" size="10" name="q15_yourName[first]" id="first_15" placeholder="Full Name" required />
 					</div>
-					<div class="col-sm-6">
+					<div class="hide">
 					  <input class="form-control" type="text" size="15" name="q15_yourName[last]" id="last_15" placeholder="Last Name"/>
 					</div>
 				  </div>
@@ -137,11 +180,11 @@
 				  </div>
 				  <div class="form-group">
 					<label for="q22_phoneNumber22" class="col-sm-2 control-label">Phone Number</label>
-					<div class="col-sm-2">
+					<div class="hide">
 					  <input type="tel" class="form-control" name="q22_phoneNumber22[area]" id="input_22_area" size="3" placeholder="780">
 					</div>
-					<div class="col-sm-8">
-					  <input type="tel" class="form-control" name="q22_phoneNumber22[phone]" id="input_22_phone" size="8" placeholder="444-4444">
+					<div class="col-sm-10">
+					  <input type="tel" class="form-control" name="q22_phoneNumber22[phone]" id="input_22_phone" size="8" placeholder="780-444-4444">
 					</div>
 				  </div>
 				  
