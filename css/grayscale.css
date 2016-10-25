@@ -52,7 +52,7 @@ a:focus {
 .light {
   font-weight: 400;
 }
-.navbar-header img {
+.navbar-header img, .brand-heading img {
 	border-radius: 10px;
 	overflow:hidden;
 }
