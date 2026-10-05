@@ -32,6 +32,11 @@ $('.navbar-collapse ul li a').click(function() {
     $(this).closest('.collapse').collapse('toggle');
 });
 
+// Require an email address when E-mail is the preferred contact method
+$('input[name="q23_preferedContact23"]').change(function() {
+    $('#input_16').prop('required', $('#input_23_0').is(':checked'));
+});
+
 // Google Maps Scripts
 var map = null;
 // When the window has finished loading create our google map below
